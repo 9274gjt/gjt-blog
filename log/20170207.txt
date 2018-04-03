@@ -1,0 +1,6 @@
+----------------------------------------------------
+2017/02/07 20:10:33
+UPDATE gjt_tag SET isoff=1 WHERE tid=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+----------------------------------------------------
+

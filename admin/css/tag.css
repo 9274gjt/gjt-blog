@@ -1,0 +1,23 @@
+.tagadd h4{
+    margin:20px 0;
+    font-weight:600;
+    margin-bottom:10px;
+}
+@media screen and (min-width:800px){
+    .tagadd{
+        float:left;
+        width:35%;
+    }
+
+    .tagadd input{
+        width:90%;
+    }
+    .tagadd button{
+        background:#0dbd74;
+        color:#fff;
+    }
+    .alltag{
+        float:right;
+        width:65%;
+    }
+}

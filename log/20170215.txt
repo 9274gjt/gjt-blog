@@ -1,0 +1,62 @@
+----------------------------------------------------
+2017/02/15 10:52:01
+SELECT ip FROM gjt_ip WHERE ip='127.0.0.1'
+
+----------------------------------------------------
+
+----------------------------------------------------
+2017/02/15 10:58:49
+INSERT INTO gjt_ip (ip,aid) VALUES ('','33')
+
+----------------------------------------------------
+
+----------------------------------------------------
+2017/02/15 11:02:39
+INSERT INTO gjt_ip (ip,aid) VALUES ('127.0.0.1','33')
+Unknown column 'id' in 'where clause'
+----------------------------------------------------
+
+----------------------------------------------------
+2017/02/15 11:10:46
+UPDATE gjt_article SET click=click+1 WHERE aid='33'
+
+----------------------------------------------------
+
+----------------------------------------------------
+2017/02/15 13:41:47
+INSERT INTO gjt_article(title,author,intro,content,time,tid)VALUES('gjt','原创','gjtgjtgjtgjtgjtgjtgjtgjtgjtgjtgjtgjtgjtgjtgjtgjt
+gjtjgtjgtjgtjgtjggjgjrjjtjoadsou4r edkgdfj rwaoes jsfdpvob
+gdajj fjwo ausfoig'sl jfiEDAL FJFLJTXF
+
+F
+JFL JRTJ DGI','<p>
+	<span style="font-size:18px;"><span style="font-size:24px;"><img src="/upload/image/20170215/20170215134130_75242.jpg" alt="" width="240" height="89" title="" align="" /></span></span>
+</p>
+<p>
+	<span style="font-size:18px;"><span style="font-size:24px;">gjtgjtgjtgjtgjtgjtgjtgjt</span></span>
+</p>
+<p>
+	<span style="font-size:18px;"><span style="font-size:24px;">gjtgjtgjtgjtgjtgjtgjtgjt</span></span>
+</p>
+<p>
+	<span style="font-size:18px;"><span style="font-size:24px;">gjtjgtjgtjgtjgtjg</span></span>
+</p>
+<p>
+	<span style="font-size:18px;"><span style="font-size:24px;">gjgjrjjtjoads</span></span>
+</p>
+<p>
+	<span style="font-size:18px;"><span style="font-size:24px;">ou4r edkgdfj rwaoes jsfdpvob</span></span>
+</p>
+<span style="font-size:18px;"><span style="font-size:24px;">gdajj fjwo ausfoig'sl jfiEDAL FJFLJTXF</span><br />
+<br />
+<span style="font-size:24px;">F</span><br />
+<span style="font-size:24px;">JFL JRTJ DGI</span><br />
+<br />
+</span>','1487137307','25')
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sl jfiEDAL FJFLJTXF
+
+F
+JFL JRTJ DGI','<p>
+	<span style="font-size:18px;"><sp' at line 1
+----------------------------------------------------
+

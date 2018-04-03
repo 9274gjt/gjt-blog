@@ -1,0 +1,36 @@
+----------------------------------------------------
+2017/02/10 20:45:51
+INSERT INTO gjt_project(proname,keyword,description,link)VALUES('个人博客系统','博客','博客','www.blog.com')
+
+----------------------------------------------------
+
+----------------------------------------------------
+2017/02/10 20:49:17
+INSERT INTO gjt_project(proname,keyword,description,link,pic)VALUES('个人博客系统','博客','博客','www.';,'')
+
+----------------------------------------------------
+
+----------------------------------------------------
+2017/02/10 20:50:20
+INSERT INTO gjt_project(proname,keyword,description,link,pic)VALUES('个人博客系统','个人博客系统','博客','www.blog.com','F:\web study\PHPstudy\Gjt_Blog\upload/2017/0210/d0a79ad5df043d1a9a9345cd50d70ee3.jpg')
+
+----------------------------------------------------
+
+----------------------------------------------------
+2017/02/10 21:07:50
+INSERT INTO gjt_project(proname,keyword,description,link,pic)VALUES('dddd','dddddddd','dddddddddd','dddddddddd','')
+
+----------------------------------------------------
+
+----------------------------------------------------
+2017/02/10 21:16:54
+INSERT INTO gjt_project(proname,keyword,description,link,pic)VALUES('MyBlog','MyBlog','MyBlog','www.blog.com','1486732614.jpg')
+
+----------------------------------------------------
+
+----------------------------------------------------
+2017/02/10 21:18:45
+INSERT INTO gjt_project(proname,keyword,description,link,pic)VALUES('MyBlog','MyBlog','MyBlog','www.blog.com','upload/2017/02101486732725.jpg')
+
+----------------------------------------------------
+

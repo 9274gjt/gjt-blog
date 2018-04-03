@@ -1,0 +1,83 @@
+
+.article_box .article_details{
+    width:85%;
+    margin:0 auto;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #c4c4c4;
+    padding:20px 20px;
+}
+.article_box .article_details article h1{
+    font-family: "宋体";
+    font-weight: bold;
+    font-size:40px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.article_box .article_details article h3{
+    text-align: center;
+    font-family: "宋体";
+}
+.article_box .article_details article h3 span{
+    margin-right:20px;
+    font-family: "宋体";
+}
+.article_box .article_details article pre{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    line-height:2;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.article_box .article_bottom{
+    width:100%;
+    height:30px;
+    line-height:30px;
+    position: relative;
+}
+.article_box .article_bottom .viewport{
+    position: absolute;
+    left:0;
+    top:0;
+    height:30px;
+    line-height:30px;
+}
+.article_box .article_bottom .share{
+    position: absolute;
+    right:0;
+    bottom:0;
+    height:30px;
+    line-height:30px;
+}
+.article_box .viewport span{
+   font-family: "宋体";
+    margin-right: 20px;
+}
+
+.article_box .article_details .article_bottom img{
+    width:55px;
+    height: 55px;
+    cursor:pointer;
+}
+
+.article_box .article_comment{
+    width:90%;
+    margin:20px auto;
+}
+@media screen and (max-width:400px){
+
+    .article_details{
+        width:90%;
+    }
+    .article_box .viewport span{
+        font-family: "宋体";
+        margin:0;
+        font-size: 10px;
+        font-weight:600;
+    }
+    .article_box .article_details img{
+        width:80%;
+        height:200px;
+    }
+}

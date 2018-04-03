@@ -1,0 +1,24 @@
+----------------------------------------------------
+2017/02/18 15:38:13
+DELETE gjt_article,gjt_comment FROM gjt_article INNER JOIN gjt_comment ON gjt_article.aid=gjt_comment.aid WHERE gjt_article.aid=40
+Table 'myblog.gjt_comment' doesn't exist
+----------------------------------------------------
+
+----------------------------------------------------
+2017/02/18 15:38:16
+DELETE gjt_article,gjt_comment FROM gjt_article INNER JOIN gjt_comment ON gjt_article.aid=gjt_comment.aid WHERE gjt_article.aid=39
+Table 'myblog.gjt_comment' doesn't exist
+----------------------------------------------------
+
+----------------------------------------------------
+2017/02/18 15:39:51
+DELETE gjt_article,gjt_comment FROM gjt_article INNER JOIN gjt_comment ON gjt_article.aid=gjt_comment.aid WHERE gjt_article.aid=40
+Table 'myblog.gjt_comment' doesn't exist
+----------------------------------------------------
+
+----------------------------------------------------
+2017/02/18 15:39:53
+DELETE gjt_article,gjt_comment FROM gjt_article INNER JOIN gjt_comment ON gjt_article.aid=gjt_comment.aid WHERE gjt_article.aid=40
+Table 'myblog.gjt_comment' doesn't exist
+----------------------------------------------------
+
